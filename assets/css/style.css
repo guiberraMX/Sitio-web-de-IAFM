@@ -26,9 +26,45 @@ Grey light: #f3f3f3;
 Body copy:		'Roboto', sans-serif; 14px;
 Headers:		'Roboto', sans-serif;
 
+
+
+
 -------------------------------------------------------------------*/
 
 /* 1. Element Styling */
+
+.banner{
+  background-color: #E09F33;
+}
+
+.fibredark{
+
+  background: #30343C;
+background: 
+linear-gradient(115deg, transparent 75%, rgba(6,6,6,.1) 75%) 0 0,
+linear-gradient(245deg, transparent 75%, rgba(6,6,6,.1) 75%) 0 0,
+linear-gradient(115deg, transparent 75%, rgba(6,6,6,.1) 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, rgba(6,6,6,.1) 75%) 7px -15px,
+#30343C;
+background-size: 15px 30px;
+
+}
+
+.colorea{
+
+  background-color: #575656;
+
+}
+
+.cocolor{
+  background-color: #3E3E3D;
+}
+
+.idioma{
+  background-color: rgba(6,6,6,.1);
+}
+
+
 
 @charset "CP852";
 a {
@@ -109,7 +145,7 @@ blockquote .cite footer {
 }
 
 body {
-  background-color: #fff;
+  background-color: #DCDCDB;
   color: #5a5a5a;
   font-family: 'Roboto', sans-serif;
 }
@@ -280,7 +316,7 @@ ul.list-links li a:hover {
 }
 
 .background-color-default-darker {
-    background-color: #073855;
+    background-color: #19191A;
 }
 
 .background-image {
@@ -497,7 +533,7 @@ ul.list-links li a:hover {
     -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #1B1B1C;
     /*margin-bottom: 20px;*/
     position: relative;
     width: 100%;
@@ -515,7 +551,7 @@ ul.list-links li a:hover {
     border: none;
     margin-bottom: 0;
     min-height: inherit;
-    padding: 30px 0;
+    padding: 10px 0;
     /**/
     display: table;
     width: 100%;
@@ -529,6 +565,7 @@ ul.list-links li a:hover {
     height: inherit;
     line-height: 0;
     padding: 0;
+    text-align: left;
 }
 .navigation .navbar .navbar-nav {
     float: right;
@@ -824,17 +861,18 @@ ul.list-links li a:hover {
     -moz-transition: 0.4s;
     -webkit-transition: 0.4s;
     transition: 0.4s;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 0px solid #f3f3f3;
     display: table;
     font-size: 12px;
     padding: 5px 0;
     width: 100%;
 }
 .navigation .secondary-navigation a {
-    color: #5a5a5a;
+    color: #E09F33;
     margin-left: 10px;
 }
 .navigation .secondary-navigation a:hover {
+    background-color: #E09F33;
     color: #073855;
 }
 .navigation .secondary-navigation a.promoted {
@@ -900,7 +938,7 @@ ul.list-links li a:hover {
     padding: 40px 0;
 }
 #page-footer .inner #footer-copyright {
-    background-color: #073855;
+    background-color: #D26F2C;
     color: #fff;
     display: table;
     padding: 20px 0;
@@ -3498,7 +3536,7 @@ ul.list-links li a:hover {
 }
 .tag.price {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-  background-color: #1396e2;
+  background-color: #D26F2C;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -4024,7 +4062,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="passw
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2) inset;
   -webkit-appearance: none;
-  background-color: #f3f3f3;
+  background-color: #4C4C4C;
   border: none;
   font-size: 14px;
   outline: none !important;
@@ -5564,8 +5602,35 @@ body, html {
   .navigation .secondary-navigation {
     filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
-    background-color: #073855;
+    background-color: #D26F2C;
   }
+
+
+  .nave li a{
+
+    color: #19191A !important;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .navigation .secondary-navigation .contact {
     display: none;
   }
