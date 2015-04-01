@@ -42,7 +42,7 @@ Headers:		'Roboto', sans-serif;
 
 .nueva{
  background-image: url("../img/bag.png") !important;
- background-position: right bottom, left top !important;
+ background-position: left bottom, left top !important;
     background-repeat: no-repeat !important;
 
 }
@@ -186,6 +186,7 @@ h1 {
   margin-bottom: 30px;
   margin-top: 10px;
   padding-bottom: 15px;
+  color: #D26F2C;
 }
 
 h2 {
@@ -3869,6 +3870,10 @@ ul.list-links li a:hover {
 
 .leaflet-container {
   font: inherit;
+}
+
+.container{
+
 }
 
 .leaflet-popup .leaflet-popup-close-button {
