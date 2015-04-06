@@ -48,8 +48,9 @@ Headers:		'Roboto', sans-serif;
 }
 
 .collr{
-  color: #333;
-  font-size: 1.2em !important;
+  color: #19191A;
+  font-size: 1.3em !important;
+  text-align: justify;
 }
 
 .fibredark{
