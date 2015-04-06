@@ -47,6 +47,11 @@ Headers:		'Roboto', sans-serif;
 
 }
 
+.collr{
+  color: #333;
+  font-size: 1.2em !important;
+}
+
 .fibredark{
 
   background: #30343C;
