@@ -966,7 +966,7 @@ ul.list-links li a:hover {
     padding: 40px 0;
 }
 #page-footer .inner #footer-copyright {
-    background-color: #D26F2C;
+    background-color: #000102;
     color: #fff;
     display: table;
     padding: 20px 0;
@@ -976,7 +976,7 @@ ul.list-links li a:hover {
     color: #fff;
 }
 #page-footer .inner #footer-copyright a:hover {
-    color: #1396e2;
+    color: #E09F33;
 }
 #page-footer .inner .property:last-child {
     margin-bottom: 0 !important;
